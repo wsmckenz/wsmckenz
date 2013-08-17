@@ -1,0 +1,9 @@
+<BranchVCSpec>
+	<PkgGUID>{2757A247-0DAD-44ae-8764-FDD262443FDA}</PkgGUID>
+	<XMLPath>eaF\FDD262443FDA.xml</XMLPath>
+	<Config>
+		<GUID>svn_resqml_v2000</GUID>
+		<LocalPath>%svn_resqml_v2000%</LocalPath>
+		<Type>2</Type>
+	</Config>
+</BranchVCSpec>

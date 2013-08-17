@@ -1,0 +1,9 @@
+<BranchVCSpec>
+	<PkgGUID>{471C8F29-8690-4692-B9D9-C35C6AB032DB}</PkgGUID>
+	<XMLPath>eaC\C35C6AB032DB.xml</XMLPath>
+	<Config>
+		<GUID>svn_resqml_v2000</GUID>
+		<LocalPath>%svn_resqml_v2000%</LocalPath>
+		<Type>2</Type>
+	</Config>
+</BranchVCSpec>

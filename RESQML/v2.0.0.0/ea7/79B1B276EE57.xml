@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="attgrp_uid" xmi.id="EAPK_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_63E49036_CF73_4390_864A_72A992EC3C97"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_FCD5060D_0FA8_4a3c_9E93_8989335A21E6"/>
+						<UML:TaggedValue tag="created" value="2012-06-04 12:42:32"/>
+						<UML:TaggedValue tag="modified" value="2013-05-28 06:25:29"/>
+						<UML:TaggedValue tag="iscontrolled" value="-1"/>
+						<UML:TaggedValue tag="xmlpath" value="ea7\79B1B276EE57.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2013-05-21 10:44:42"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-06-20 04:18:51"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="0"/>
+						<UML:TaggedValue tag="usedtd" value="0"/>
+						<UML:TaggedValue tag="logxml" value="0"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=svn_resqml_v2000;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Hari Koduru"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="XSDschema"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="genfile" value="C:\temp\v2\attgrp_uid.xsd"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Class name="attgrp_uid" xmi.id="EAID_D486FDE8_76D0_44f4_82CB_0C0FE2BACEAF" visibility="public" namespace="EAPK_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="XSDattributeGroup"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-04 12:42:33"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-04 12:42:33"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="attgrp_uid"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Hari Koduru"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="XSDattributeGroup"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="22832"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0D66C254-87BD-4668-9F5B-49EAA50C5A78}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XSDattributeGroup;GUID={F91432CD-07AE-402e-B4ED-5D43E0A25049};@ENDSTEREO;$DES;$CLT={D486FDE8-76D0-44f4-82CB-0C0FE2BACEAF}$CLT;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="uid" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The unique identifier of a container element.&#xA;				This attribute is generally required within the context of a WITSML server.&#xA;				There should be no assumption as to the semantic content of this attribute.&#xA;				This should only be used with recurring container types (i.e., maxOccurs greater than one).&#xA;				The value is only required to be unique within the context of the nearest recurring parent element."/>
+										<UML:TaggedValue tag="type" value="uidString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{4D8E1453-D35B-4e54-81A1-B108EA11A34D}"/>
+										<UML:TaggedValue tag="ea_localid" value="74345"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+							</UML:Classifier.feature>
+						</UML:Class>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_63E49036_CF73_4390_864A_72A992EC3C97" name="XSDschema" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+				<UML:DataType xmi.id="eaxmiid0" name="uidString" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="attributeFormDefault" xmi.id="EAID_F2BE5C07_F64C_4d57_AD8D_F8BAFB7F9935" value="unqualified" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="elementFormDefault" xmi.id="EAID_D9410941_B391_4fe7_82BC_6413B6340AF1" value="qualified" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="schemaLocation" xmi.id="EAID_6531D46F_2576_4979_BC03_D36A8B97AEDE" value="F:\Standards\Energistics/resqml_v2.0.0_data/xsd_schemas/attgrp_uid.xsd" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_9585669D_3796_479e_92F2_385171F50295" value="http://www.resqml.org/schemas/1series" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="targetNamespacePrefix" xmi.id="EAID_3F167C81_BBA3_4cdf_8743_488A9C7F44A6" value="resqml" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="version" xmi.id="EAID_093541C5_8E11_4353_8A72_364A9D03578C" value="RESQML_v1.1" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:TaggedValue tag="xmlns" xmi.id="EAID_BAA87888_35D6_4694_808B_CE63BBB78796" value="&lt;memo&gt;" modelElement="MX_EAID_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+		<UML:Diagram name="Attgrp_uid" xmi.id="EAID_1BED888B_BED6_459e_A64C_EB27BE244349" diagramType="ClassDiagram" owner="EAPK_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Hari Koduru"/>
+				<UML:TaggedValue tag="created_date" value="2012-06-04 12:42:32"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-04 12:42:33"/>
+				<UML:TaggedValue tag="package" value="EAPK_CC82F0EC_EDBA_4c51_BF42_79B1B276EE57"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="946"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=815;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=BF512418;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=20;Top=20;Right=110;Bottom=90;" subject="EAID_D486FDE8_76D0_44f4_82CB_0C0FE2BACEAF" seqno="1" style="DUID=D3EE70FF;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

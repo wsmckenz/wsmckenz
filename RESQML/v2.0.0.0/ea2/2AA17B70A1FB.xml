@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="dublinCoreTerms_resqml_v2.0_profile" xmi.id="EAPK_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_80EEE163_A707_4372_BCAC_C978FC288CCB"/>
+						<UML:TaggedValue tag="created" value="2012-07-25 12:52:33"/>
+						<UML:TaggedValue tag="modified" value="2012-07-25 12:52:33"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="ea2\2AA17B70A1FB.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2013-06-08 12:00:11"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-08-08 12:14:04"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="3"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=1;VCCFG=svn_resqml_v2000;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Hari Koduru"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="3"/>
+						<UML:TaggedValue tag="genfile" value="C:\temp\v2\dcProfile.xsd"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="dcterms" xmi.id="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="XSDschema"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&#xA;			RESQML profile. All non-date types are constrained to a maximum of 4000 characters&#xA;			and specialization (i.e., a new type) is disallowed. &#xA;			The xml:lang attribute is still allowed.&#xA;			Substitution groups have been eliminated which means for example that an&#xA;			&quot;abstract&quot; element cannot be substituted for a &quot;description&quot; element.&#xA;			That is, the element referenced in the RESQML schema is all that you will&#xA;			ever see in the XML.&#xA;			For dates, the attribute xsi:type=&quot;dct:W3CDTF&quot; must be specified with each element with date content.&#xA;			This will constrain all dates to xs:dateTime. In the normative DC schema, W3CDTF represents a union of &quot;xs:gYear xs:gYearMonth xs:date xs:dateTime&quot;.&#xA;			An xml:lang attribute is not allowed for dates.&#xA;		"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB"/>
+										<UML:TaggedValue tag="date_created" value="2013-06-08 12:00:23"/>
+										<UML:TaggedValue tag="date_modified" value="2013-06-08 12:00:23"/>
+										<UML:TaggedValue tag="genfile" value="F:\Standards\Energistics\resqml_v2.0.0_data\xsd_schemas\dublinCoreTerms_resqml_v2.0_profile\dcterms.xsd"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+										<UML:TaggedValue tag="package_name" value="dublinCoreTerms_resqml_v2.0_profile"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Hari Koduru"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="XSDschema"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="627"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C7EDFFD8-DA19-4b3d-838F-4B46833C36A0}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=XSDschema;GUID={BC47E9C2-43D1-4e65-9BB6-CA2AADCD6FEE};FQName=UML Profile for XSD Schema::XSDschema;@ENDSTEREO;$DES;$CLT={8DB8C6D2-7E12-479a-93EA-DCC36245FFBA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="dcterms" xmi.id="EAPK_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype xmi.idref="EAID_E6C2DBE9_F059_4faf_9D6A_10415F4E3CC5"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&#xA;			RESQML profile. All non-date types are constrained to a maximum of 4000 characters&#xA;			and specialization (i.e., a new type) is disallowed. &#xA;			The xml:lang attribute is still allowed.&#xA;			Substitution groups have been eliminated which means for example that an&#xA;			&quot;abstract&quot; element cannot be substituted for a &quot;description&quot; element.&#xA;			That is, the element referenced in the RESQML schema is all that you will&#xA;			ever see in the XML.&#xA;			For dates, the attribute xsi:type=&quot;dct:W3CDTF&quot; must be specified with each element with date content.&#xA;			This will constrain all dates to xs:dateTime. In the normative DC schema, W3CDTF represents a union of &quot;xs:gYear xs:gYearMonth xs:date xs:dateTime&quot;.&#xA;			An xml:lang attribute is not allowed for dates.&#xA;		"/>
+								<UML:TaggedValue tag="parent" value="EAPK_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB"/>
+								<UML:TaggedValue tag="created" value="2012-07-25 13:21:26"/>
+								<UML:TaggedValue tag="modified" value="2012-07-25 13:21:26"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="eaD\DCC36245FFBA.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2013-06-08 12:00:24"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-08-08 12:14:04"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=svn_resqml_v2000;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Hari Koduru"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="stereotype" value="XSDschema"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_E6C2DBE9_F059_4faf_9D6A_10415F4E3CC5" name="XSDschema" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="elementFormDefault" xmi.id="EAID_49393547_503D_4625_974C_CEF368655188" value="qualified" modelElement="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+		<UML:TaggedValue tag="schemaLocation" xmi.id="EAID_966997BE_A42C_4484_A802_D906DD4A036A" value="F:\Standards\Energistics/resqml_v2.0.0_data/xsd_schemas/dublinCoreTerms_resqml_v2.0_profile/dcterms.xsd" modelElement="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_8258AE96_446F_401b_B38B_DF88E869507B" value="http://purl.org/dc/terms/" modelElement="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+		<UML:TaggedValue tag="targetNamespacePrefix" xmi.id="EAID_289FDA89_7081_4e7c_A40D_FDA4A2C5A38B" value="dc#NOTES#Description: Prefix associated with namespace&#xA;" modelElement="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+		<UML:TaggedValue tag="xmlns" xmi.id="EAID_D8465B7E_A175_4d9b_B523_338B996E5983" value="&lt;memo&gt;" modelElement="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA"/>
+		<UML:DiagramElement geometry="Left=1359;Top=767;Right=1500;Bottom=920;" subject="EAID_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB" seqno="27" style="DUID=87C03D66;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_80728AC7_ED5D_4c88_B3CC_036B907EA8D5"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=1139;Top=1192;Right=1297;Bottom=1505;" subject="EAID_B42FE220_D77C_46a4_9FE9_2AA17B70A1FB" seqno="31" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=7B56E2BB;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_7F1545F0_0025_4413_A75D_009E90CB75B2"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=1364;Top=874;Right=1561;Bottom=1927;" subject="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA" seqno="22" style="DUID=27E57E6D;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=14745599;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_80728AC7_ED5D_4c88_B3CC_036B907EA8D5"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=1153;Top=1308;Right=1273;Bottom=1445;" subject="EAID_8DB8C6D2_7E12_479a_93EA_DCC36245FFBA" seqno="26" style="NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=14745599;DUID=BB4E8B72;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;AttCustom=0;OpCustom=0;RzO=1;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_7F1545F0_0025_4413_A75D_009E90CB75B2"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
